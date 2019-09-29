@@ -27,8 +27,8 @@ wstring transfor(const string& s)
 }
 struct node
 {
-	int id;
-	int difficult;
+	int id=0;
+	int difficult=0;
 	wstring str;
 	wstring name;
 	wstring phone;
